@@ -13,5 +13,6 @@ struct dao_homeApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: DataItem.self)
     }
 }

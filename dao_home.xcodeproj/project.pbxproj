@@ -14,6 +14,11 @@
 		BD4E735D2C2C8B5B006ADA54 /* dao_homeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E735C2C2C8B5B006ADA54 /* dao_homeTests.swift */; };
 		BD4E73672C2C8B5B006ADA54 /* dao_homeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E73662C2C8B5B006ADA54 /* dao_homeUITests.swift */; };
 		BD4E73692C2C8B5B006ADA54 /* dao_homeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E73682C2C8B5B006ADA54 /* dao_homeUITestsLaunchTests.swift */; };
+		BD4E73762C2C8B8A006ADA54 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E73752C2C8B8A006ADA54 /* SecondView.swift */; };
+		BD4E73782C2C8BC2006ADA54 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E73772C2C8BC2006ADA54 /* ThirdView.swift */; };
+		BD4E737C2C2CA800006ADA54 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E737B2C2CA800006ADA54 /* FourthView.swift */; };
+		BD4E737E2C2CAB34006ADA54 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E737D2C2CAB34006ADA54 /* FifthView.swift */; };
+		BD69FB022C2DFF5E003070A1 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69FB012C2DFF5E003070A1 /* DataItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		BD4E73622C2C8B5B006ADA54 /* dao_homeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dao_homeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4E73662C2C8B5B006ADA54 /* dao_homeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dao_homeUITests.swift; sourceTree = "<group>"; };
 		BD4E73682C2C8B5B006ADA54 /* dao_homeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dao_homeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4E73752C2C8B8A006ADA54 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD4E73772C2C8BC2006ADA54 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		BD4E737B2C2CA800006ADA54 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		BD4E737D2C2CAB34006ADA54 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		BD69FB012C2DFF5E003070A1 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 			children = (
 				BD4E734B2C2C8B59006ADA54 /* dao_homeApp.swift */,
 				BD4E734D2C2C8B59006ADA54 /* ContentView.swift */,
+				BD4E73752C2C8B8A006ADA54 /* SecondView.swift */,
+				BD4E737D2C2CAB34006ADA54 /* FifthView.swift */,
+				BD4E737B2C2CA800006ADA54 /* FourthView.swift */,
+				BD4E73772C2C8BC2006ADA54 /* ThirdView.swift */,
 				BD4E734F2C2C8B5B006ADA54 /* Assets.xcassets */,
 				BD4E73512C2C8B5B006ADA54 /* Preview Content */,
+				BD69FB012C2DFF5E003070A1 /* DataItem.swift */,
 			);
 			path = dao_home;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4E73782C2C8BC2006ADA54 /* ThirdView.swift in Sources */,
+				BD69FB022C2DFF5E003070A1 /* DataItem.swift in Sources */,
+				BD4E73762C2C8B8A006ADA54 /* SecondView.swift in Sources */,
 				BD4E734E2C2C8B59006ADA54 /* ContentView.swift in Sources */,
 				BD4E734C2C2C8B59006ADA54 /* dao_homeApp.swift in Sources */,
+				BD4E737E2C2CAB34006ADA54 /* FifthView.swift in Sources */,
+				BD4E737C2C2CA800006ADA54 /* FourthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
